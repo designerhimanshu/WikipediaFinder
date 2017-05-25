@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(#FF90EE, #A78AFF);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.heading {
+	margin-top: 50px;
+	font-family: Anton;
+	font-size: 150px;
+	text-align: center;
+	color: white;
+	opacity: .25;
+	letter-spacing: 3px;
+	line-height: 150px;
+}
+
+.container {
+	max-width: 75%;
+	margin: auto;
+}
+
+.leftDiv, .rightDiv {
+	width: 50%;
+	float: left;
+}
+
+button {
+	width: 240px;
+	height: 68px;
+	border: 2px solid white;
+	color: white;
+	font: 2em "Fjalla One";
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.randomButton {
+	background-color: #FF93D6;
+}
+
+.searchButton {
+	background-color: #BA93FF;
+}
+
+footer {
+	font: 1.2em "Fjalla One";
+	color: white;
+	opacity: .2;
+	text-align: center;
+}
+
+input {
+	width: 280px;
+	height: 68px;
+	background: none;
+	border: 2px solid white;
+	padding-left: 20px;
+	font: 1.4em "Fjalla One";
+	color: white;
+	background-image: url("searchIcon.png");
+	background-repeat: no-repeat;
+	background-position: 225px 12px;
+	margin-right: 20px;
+}
+
+.searchResults {
+	margin-top: 80px;
+}
+
+.result {
+	background: white;
+	padding: 20px;
+	color: #BB31A5;
+	font-family: Helvetica;
+	list-style: none;
+	border-left: 5px solid white;
+	margin-bottom: 20px;
+}
+
+.title {
+	margin: 0 0 8px 0;
+}
+
+.content {
+	margin: 0;
+}
+
+.result:hover {
+	border-left: 5px solid #FF45E2;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
